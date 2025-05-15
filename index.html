@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Afri.ai – AI for Africa</title>
+  <title>Afri.ai – Voice AI for Africa</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,6 +12,11 @@
     <p>AI solutions for Africa. In your voice, in your language.</p>
   </header>
   <main>
+    <section>
+      <h2>Ask by Voice</h2>
+      <button onclick="startListening()" class="btn">Start Speaking</button>
+      <p id="transcript" class="transcript-box">Say something in Amharic or Oromo...</p>
+    </section>
     <section>
       <h2>Our Mission</h2>
       <p>We build offline AI and voice platforms in Amharic, Oromo, and other African languages for agriculture, health, and education.</p>
@@ -25,5 +30,6 @@
   <footer>
     <p>© 2025 Afri.ai – All Rights Reserved</p>
   </footer>
+  <script src="voice.js"></script>
 </body>
 </html>
